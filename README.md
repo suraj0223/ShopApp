@@ -1,16 +1,25 @@
-# shopapp
+# Shopapp
+  > A Beautiful mobile application using Flutter.
 
-A new Flutter project.
+### Features
 
-## Getting Started
+1. Mark your Items Favourite.
+2. Add Items to your cart so that you can order it later.
+3. Delete an item from your cart
+4. Preview your past orders.
+5. Edit items that are owned by you.
+6. Place an order.
 
-This project is a starting point for a Flutter application.
+### Getting Started
 
-A few resources to get you started if this is your first Flutter project:
+- Install Android Emulator
+  - For more Info head to [Install Android Studio](https://developer.android.com/studio)
+  - Install the required Flutter plugins.
+- Open a brand new Flutter project
+- Clone this repo into your project folder 
+- All set done!
+- ```In case of any issue head to``` [Flutter.dev](https://flutter.dev/docs/get-started/install)
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+### About Flutter
+  - Fore more info about Flutter feel free to explore [here](https://flutter.dev/?gclid=EAIaIQobChMIzr-5j8KS6wIVzn8rCh2eaw4vEAAYASAAEgKbm_D_BwE&gclsrc=aw.ds)
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
