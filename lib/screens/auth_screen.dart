@@ -57,7 +57,7 @@ class AuthScreen extends StatelessWidget {
                           softWrap: true,
                           style: TextStyle(
                             color:
-                                Theme.of(context).accentTextTheme.title.color,
+                                Theme.of(context).accentTextTheme.headline6.color,
                             fontSize: 65,
                             fontFamily: 'Anton',
                             fontWeight: FontWeight.normal,
@@ -266,8 +266,8 @@ class _AuthCardState extends State<AuthCard>
                       _authData['password'] = value;
                     },
                   ),
-                  if (_authMode == AuthMode.Signup)
-                    TextFormField(
+                  _authMode == AuthMode.Signup
+                   ? TextFormField(
                       enabled: _authMode == AuthMode.Signup,
                       decoration: InputDecoration(labelText: 'Confirm Password'),
                       obscureText: true,
@@ -278,14 +278,14 @@ class _AuthCardState extends State<AuthCard>
                               }
                             }
                           : null,
-                    ),
+                    )
+                    : Container(),
                   SizedBox(
                     height: 20,
                   ),
-                  if (_isLoading)
-                    CircularProgressIndicator()
-                  else
-                    RaisedButton(
+                  _isLoading
+                  ?  CircularProgressIndicator()
+                  : RaisedButton(
                       child:
                           Text(_authMode == AuthMode.Login ? 'LOGIN' : 'SIGN UP'),
                       onPressed: _submit,
