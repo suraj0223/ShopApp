@@ -1,4 +1,4 @@
-# Shopapp
+# ShopApp
   > A Beautiful mobile application using Flutter.
 
 ### Features
